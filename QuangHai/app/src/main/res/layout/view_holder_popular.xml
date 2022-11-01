@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/rcv_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:background="@drawable/cart_background1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza"/>
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="82dp"
+            android:layout_height="79dp"
+            app:srcCompat="@drawable/pizza"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.31" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+    </LinearLayout>
+</RelativeLayout>
